@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobro ou Triplo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Dobro ou triplo</h1>
+
+    <input type="number" id="numero" placeholder="Digite um número">
+
+    <br><br>
+
+    <select id="operacao">
+        <option value="">-- Selecione --</option>
+        <option value="dobro">Dobro</option>
+        <option value="triplo">Triplo</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="calcular()">Calcular</button>
+    <button onclick="limpar()">Limpar</button>
+    <p id="resultado"></p>
+    <script src="triplo.js"></script>
+</body>
+</html>
